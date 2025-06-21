@@ -17,7 +17,7 @@ const Navbar = ({ activeSection, scrollToSection, isMenuOpen, setIsMenuOpen, scr
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <div className="text-2xl font-bold text-gray-900">
-            Devika
+            
           </div>
 
           {/* Desktop Navigation */}
@@ -29,7 +29,7 @@ const Navbar = ({ activeSection, scrollToSection, isMenuOpen, setIsMenuOpen, scr
                 className={`text-sm font-medium transition-colors duration-200 ${
                   activeSection === item.id
                     ? 'text-purple-600'
-                    : 'text-gray-700 hover:text-purple-600'
+                    : 'text-gray-700 hover:text-purple-600 hover:underline'
                 }`}
               >
                 {item.label}
