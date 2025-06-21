@@ -6,6 +6,7 @@ import Footer from "./Footer";
 import AboutSection from "./About";
 import ProjectsSection from "./Projects";
 import { useState , useEffect} from "react";
+import ExperiencePage from "./Experience";
 
 
 const Portfolio = () => {
@@ -40,6 +41,7 @@ const Portfolio = () => {
       <HeroSection />
       <ProjectsSection />
       <AboutSection />
+      <ExperiencePage />
       <Footer />
     </div>
   );

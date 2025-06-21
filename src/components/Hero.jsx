@@ -4,8 +4,6 @@ import {
   User,
   
 } from 'lucide-react';
-
-
 // Hero Section Component
 const HeroSection = () => {
   return (
@@ -32,12 +30,13 @@ const HeroSection = () => {
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4">
+           <a href="#contact">
             <button className="bg-purple-600 text-white px-8 py-3 rounded-lg font-medium hover:bg-purple-700 transition-colors">
               Get In Touch
             </button>
-            <button className="border-2 border-gray-300 text-gray-700 px-8 py-3 rounded-lg font-medium hover:border-purple-600 hover:text-purple-600 transition-colors">
-              Browse Projects
-            </button>
+          </a>
+
+           
           </div>
         </div>
 
@@ -46,9 +45,14 @@ const HeroSection = () => {
           <div className="relative">
             <div className="w-80 h-80 rounded-full bg-gradient-to-br from-purple-200 to-blue-200 p-1">
               <div className="w-full h-full rounded-full bg-gray-200 flex items-center justify-center overflow-hidden">
-                <div className="w-32 h-32 bg-gradient-to-br from-purple-400 to-blue-400 rounded-full flex items-center justify-center">
-                  <User size={64} className="text-white" />
-                </div>
+                {/* <div className="w-32 h-32 rounded-full overflow-hidden"> */}
+                  <img
+                    src="/profile1.jpg"
+                    alt="Devika Rajeevan"
+                    className="w-full h-full object-cover"
+                  />
+                {/* </div> */}
+
               </div>
             </div>
            
@@ -62,9 +66,3 @@ const HeroSection = () => {
 export default HeroSection
 
 
-
-
-// Footer Component
-
-
-// Main Portfolio Component

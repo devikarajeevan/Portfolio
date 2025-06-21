@@ -39,9 +39,9 @@ const Navbar = ({ activeSection, scrollToSection, isMenuOpen, setIsMenuOpen, scr
 
           {/* Contact Button */}
           <div className="hidden md:flex">
-            <div className="w-10 h-10 bg-gray-900 rounded-full flex items-center justify-center">
+            {/* <div className="w-10 h-10 bg-gray-900 rounded-full flex items-center justify-center">
               <span className="text-white text-sm">©</span>
-            </div>
+            </div> */}
           </div>
 
           {/* Mobile Menu Button */}
